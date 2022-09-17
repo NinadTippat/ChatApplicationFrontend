@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+
+.JoinPage {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.JoinContainer {
+  /* border: 2px solid white; */
+  height: 50%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.JoinContainer > img {
+  height: 70px;
+}
+
+.JoinContainer > h1 {
+  color: white;
+  font-size: 40px;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+.JoinContainer > h1:hover {
+  color: rgb(0, 119, 255);
+}
+.JoinContainer > p {
+  color: rgb(0, 119, 255);
+  font-size: 20px;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+.JoinContainer > p:hover {
+  color: white;
+}
+#joinInput {
+  width: 250px;
+  outline: none;
+  font-size: 20px;
+  margin: 1vmax;
+  border: none;
+  border-radius: 20px;
+  padding: 13px 15px 13px 15px;
+  font-family: "Mochiy Pop P One", sans-serif;
+  color: rgb(0, 119, 255);
+}
+.joinbtn {
+  width: 120px;
+  outline: none;
+  font-size: 20px;
+  padding: 8px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 30px;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+.joinbtn:hover {
+  background-color: rgb(0, 119, 255);
+  cursor: pointer;
+  color: white;
+  transition: all 0.5s;
+}
+
+@media all and (max-width: 970px) {
+  .JoinContainer {
+    width: 100%;
+  }
+  .JoinContainer > img {
+    height: 70px;
+  }
+  .JoinContainer > h1 {
+    font-size: 25px;
+  }
+  #joinInput {
+    height: 16px;
+    width: 230px;
+    margin: 4vmax;
+    font-size: 17px;
+  }
+  .JoinContainer > p {
+    font-size: 14px;
+  }
+  .joinbtn {
+    width: 115px;
+    padding: 5px;
+  }
+}

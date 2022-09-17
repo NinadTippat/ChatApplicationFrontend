@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Luxurious+Roman&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+
+.messageBox {
+  background-color: gainsboro;
+  width: 50%;
+  padding: 1vmax;
+  margin: 1vmax;
+  border-top-left-radius: 25px;
+  border-end-end-radius: 25px;
+  display: inline-block;
+  clear: both;
+  font-family: "Luxurious Roman", cursive;
+  font-size: 17px;
+}
+.right {
+  float: right;
+  background-color: rgb(0, 110, 255);
+  color: white;
+}
+.left {
+  float: left;
+  background-color: rgb(0, 255, 170);
+}
+
+@media all and (max-width: 970px) {
+  .messageBox {
+    padding: 7px;
+    margin: 3px;
+    font-size: 15px;
+  }
+}
